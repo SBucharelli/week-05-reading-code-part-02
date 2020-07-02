@@ -1,4 +1,4 @@
-module.exports = function nameThisFunction(arr) {
+module.exports = function returnHighestNumberWithinRange(arr) {
     let retVal = 0
 
     arr.forEach((item) => {
