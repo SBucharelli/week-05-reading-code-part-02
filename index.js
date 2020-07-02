@@ -1,4 +1,4 @@
-module.exports = function nameThisFunction(value) {
+module.exports = function reverseString(value) {
     var pieces = value.split(' ');
     var newList = [];
 
