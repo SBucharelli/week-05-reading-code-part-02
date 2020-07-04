@@ -1,7 +1,7 @@
 // We are using the `%` Remainder operator
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder
 // and https://www.mathsisfun.com/definitions/modulo-operation.html
-module.exports = function highestCommonDenominator(x, y) {
+module.exports = function greatestCommonDivisor(x, y) {
     // while y - as long as y is a true value
     while (y) {
         const t = y
